@@ -7,3 +7,9 @@ bottom text
 '''
 #npota
 import this
+message = "dis a message man"
+print(message.title())
+print(message.upper())
+print(f"{message.title()}, is done \t because")
+file = "zaza.pdf"
+print(f"{file} be like that or {file.removesuffix('.pdf')}")

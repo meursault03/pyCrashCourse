@@ -1,0 +1,30 @@
+people = ["Kurt Cobain", "George Bush", "John Persona", "John Halo", "John Death Stranding"]
+print(people)
+print(people[0])
+print(people[-1])
+people.append("Iuri Vale")
+print(people[-1])
+dostoevskyBooks = []
+dostoevskyBooks.append("White Nights")
+dostoevskyBooks.append("The Man from the Underground")
+print(dostoevskyBooks)
+dostoevskyBooks.insert(1, "The Brothers Karamazov")
+print(dostoevskyBooks[1])
+listBig = [dostoevskyBooks, people]
+print(listBig)
+print(listBig[0])
+print(listBig[1])
+listTrulyBig = dostoevskyBooks + people
+print(listTrulyBig)
+del dostoevskyBooks[0]
+print(dostoevskyBooks)
+people.remove("John Halo")
+print(people)
+whatever = people.pop(0)
+print(people)
+print(whatever)
+people.sort(reverse=True)
+print(people)
+people.reverse()
+len(people)
+print(len(people))
