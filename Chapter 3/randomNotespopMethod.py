@@ -2,4 +2,4 @@ kipopada = ["Loverboyrando", "The Cardingans", "Perfume", "Duster", "Death Grips
 popado = kipopada.pop(2)
 print(popado)
 print(kipopada)
-print(kipopada[-9])
+print(kipopada[-3])
