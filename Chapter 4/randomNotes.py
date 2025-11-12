@@ -21,4 +21,6 @@ for value in range(1,21,2):
 squared = []
 for value in range(1,21):
     square = value ** 2
-        
+    squared.append(square)
+print(squared)
+print(sum(squared))
