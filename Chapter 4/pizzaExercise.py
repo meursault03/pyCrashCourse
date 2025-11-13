@@ -18,5 +18,11 @@ pizzas = ["pepperoni", "hawaiian", "chicken n cream cheese", "pineapple"]
 
 
 friendsPizzas = pizzas[:]
-friendsPizzas.append("Carne do Sol")
-pizzas.append("Calabresa")
+friendsPizzas.append("carne do Sol")
+pizzas.append("calabresa")
+
+for pizza in pizzas:
+    print(f"My favorite pizza is {pizza}")
+
+for pizza in friendsPizzas:
+    print(f"My friends favorite pizza is {pizza}")
