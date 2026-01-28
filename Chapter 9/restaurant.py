@@ -45,6 +45,6 @@ class IceCreamStand(Restaurant):
 # restaurant.display_clients()
 # restaurant.increment_number_served(67)
 # restaurant.display_clients()
-
-ahmed_icecream = IceCreamStand("Ahmed Ice Creams", "Turkish", "Pistachio", "Vanilla")
-ahmed_icecream.display_flavors()
+#
+# ahmed_icecream = IceCreamStand("Ahmed Ice Creams", "Turkish", "Pistachio", "Vanilla")
+# ahmed_icecream.display_flavors()

@@ -23,35 +23,22 @@ class User:
     def greet_user(self):
         print(f"Hello {self.first_name} {self.last_name}")
 
-class Admin(User):
-    def __init__(self, first_name, last_name, net_worth, sex):
-        super().__init__(first_name, last_name, net_worth, sex)
-        self.privileges = Privileges()
 
-class Privileges:
-    def __init__(self):
-        self.privileges = ["can edit posts", "can ban user", "can delete posts", "can add posts"]
-
-    def display_privileges(self):
-        print(f"The user have the following privileges:")
-        for privilege in self.privileges:
-            print(privilege.capitalize())
-
-
-
-user_1 = Admin("James", "Bizonette", 67, "Male")
-# user_2 = User("Kirsten", "Jung", 393_132_923, "Female")
-
-# user_1.describe_user()
-# user_1.greet_user()
-# user_2.describe_user()
-# user_2.greet_user()
-
-
-# for count in range(5):
-#     user_1.increment_login_attempts()
 #
-# user_1.display_login_attempts()
-# user_1.reset_login_attempts()
-# user_1.display_login_attempts()
-user_1.privileges.display_privileges()
+#
+# user_1 = Admin("James", "Bizonette", 67, "Male")
+# # user_2 = User("Kirsten", "Jung", 393_132_923, "Female")
+#
+# # user_1.describe_user()
+# # user_1.greet_user()
+# # user_2.describe_user()
+# # user_2.greet_user()
+#
+#
+# # for count in range(5):
+# #     user_1.increment_login_attempts()
+# #
+# # user_1.display_login_attempts()
+# # user_1.reset_login_attempts()
+# # user_1.display_login_attempts()
+# user_1.privileges.display_privileges()
