@@ -1,0 +1,5 @@
+In Python you can create classes to model real-world objects.
+In Python you can use inheritance to create specialized versions of a class.
+In Python you can read files using the pathlib module.
+In Python you can store data in lists and dictionaries to organize it.
+In Python you can use loops to automate repetitive tasks.
